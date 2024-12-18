@@ -1,0 +1,79 @@
+body{
+    background-color: #e9e9e9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #1e8538;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 25px;
+}
+header h1 {
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+/* navbar */
+.navbar ul{
+    list-style-type: none;  
+    background-color: #1b7531;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar li{
+    width: calc(100% / 3); /* berekent de breete(handig als je bijvoorbeeld drie list items heb die naast elkaar moetten */
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding:15px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+.navbar a:hover{
+    background-color: #155e27;
+    border-radius: 10px;
+}
+.navbar li{
+    float: left;
+}
+
+/* main css */
+main{
+    background-color: #f3f3f3;
+    width: 70%;
+    margin: 25px auto;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    padding: 5px 10px 10px;
+}
+
+h2{
+    margin: 10px;
+}
+
+main h2 {
+    font-size: 36px;
+}
+
+/* footer css */
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(81, 79, 79);
+    padding: 5px;
+    font-size: 10px;
+}
+footer a {
+    color: #0073ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    color: #0163da;
+    text-decoration: underline;
+}
